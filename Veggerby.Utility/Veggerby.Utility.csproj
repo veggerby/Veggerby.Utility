@@ -75,6 +75,13 @@
     <Compile Include="Mvc\Security\IAuthenticationService.cs" />
     <Compile Include="Mvc\Security\ICurrentUserService.cs" />
     <Compile Include="Mvc\Security\UserState.cs" />
+    <Compile Include="Mvc\Sitemap\Enums.cs" />
+    <Compile Include="Mvc\Sitemap\ISitemap.cs" />
+    <Compile Include="Mvc\Sitemap\ISitemapItem.cs" />
+    <Compile Include="Mvc\Sitemap\Sitemap.cs" />
+    <Compile Include="Mvc\Sitemap\SitemapItem.cs" />
+    <Compile Include="Mvc\Sitemap\XmlSitemapIndexResult.cs" />
+    <Compile Include="Mvc\Sitemap\XmlSitemapResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mvc\UnitOfWorkFilterAttribute.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
