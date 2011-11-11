@@ -1,1 +1,5 @@
 Veggerby Utility is just my own set of utility functions...
+
+(Some) extension methods from http://stackoverflow.com/questions/271398/what-are-your-favorite-extension-methods-for-c-codeplex-com-extensionoverflow (http://extensionoverflow.codeplex.com/)
+SiteMap heavily inspired by http://joelabrahamsson.com/entry/xml-sitemap-with-aspnet-mvc
+PagedList from "somewhere"
