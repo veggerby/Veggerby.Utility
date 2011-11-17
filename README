@@ -3,3 +3,4 @@ Veggerby Utility is just my own set of utility functions...
 (Some) extension methods from http://stackoverflow.com/questions/271398/what-are-your-favorite-extension-methods-for-c-codeplex-com-extensionoverflow (http://extensionoverflow.codeplex.com/)
 SiteMap heavily inspired by http://joelabrahamsson.com/entry/xml-sitemap-with-aspnet-mvc
 PagedList from "somewhere"
+LowercaseRouting (http://coderjournal.com/2008/03/force-mvc-route-url-lowercase/ and http://stackoverflow.com/questions/878578/how-can-i-have-lowercase-routes-in-asp-net-mvc#answer-3035418)
