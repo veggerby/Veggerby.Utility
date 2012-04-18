@@ -316,6 +316,18 @@ namespace Veggerby.Utility.Extensions
                 .TrimEnd() + suffix;
         }
 
+        public static string ExpandPascalCase(this string text)
+        {
+            // source: http://stackoverflow.com/questions/323314/best-way-to-convert-pascal-case-to-a-sentence
+            if (text == null)
+            {
+                return null;
+            }
+
+            return Regex.Replace(text, "[a-z][A-Z]", m => m.Value[0] + " " + char.ToLower(m.Value[1]));
+        }
+
+
         public static string ToTitleCase(this string text)
         {
             if (text == null)
