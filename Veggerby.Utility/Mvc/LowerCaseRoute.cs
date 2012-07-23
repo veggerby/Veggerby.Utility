@@ -1,7 +1,8 @@
-﻿using System.Web.Routing;
+using System.Web.Routing;
 
 namespace Veggerby.Utility.Mvc
 {
+    // Source: http://coderjournal.com/2008/03/force-mvc-route-url-lowercase/
     public class LowercaseRoute : Route
     {
         public LowercaseRoute(string url, IRouteHandler routeHandler)
