@@ -64,7 +64,7 @@ namespace Veggerby.Utility.Mvc.Extensions
             string md5 = email.ToLowerInvariant().MD5();
 
             return string.Format(
-                "http://www.gravatar.com/avatar/{0}.jpg?d={1}&s={2}&r=g",
+                url.RequestContext.HttpContext.Request.IsSecureConnection ? "https://secure.gravatar.com/avatar/{0}.jpg?d={1}&s={2}&r=g" : "http://www.gravatar.com/avatar/{0}.jpg?d={1}&s={2}&r=g",
                 md5.ToLowerInvariant(),
                 url.Encode(imageUrl),
                 size);
