@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Veggerby.Utility
+namespace Veggerby.Utility.Extensions
 {
     public static class GenericExtensions
     {
